@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>打字游戏</title>
+<style>
+html,body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	height:100%;
+	color: orange;
+/*  color: #ECEE13;*/
+  font-size: 70px;
+  font-weight: bold;
+  font-family:"MV Boli";
+}
+.beijing{
+width: 100%;
+height:100%;
+}
+/* .gengdan{
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  bottom: 0px;
+  left:0;
+  background:#6AFD08;
+  background: #bac3ca;
+   z-index: 10;
+} */
+.guanka{
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  color: #000;
+}
+.guanqia{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  bottom: 120px;
+  right: 20px;
+}
+.shengming{
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+.life{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  bottom: 45px;
+  right: 20px;
+}
+.fenzhi{
+  position: absolute;
+  left: 10px;
+  bottom: 100px;
+}
+.score{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  bottom: 120px;
+  left: 80px;
+}
+.zongfens{
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
+}
+.zongfen{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+}
+/**/ .gengdan div{
+  /*width: 12%;
+  height:30px;
+  float: left;*/
+  font-size: 20px;
+  color:#fff;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  font-family:"MV Boli";
+} 
+.come{
+  width: 280px;
+  height: 124px;
+  position: fixed;
+  left:570px;
+  top:230px;
+}
+.coming{
+  width: 280px;
+  height: 124px;
+}
+.endbox{
+  width: 480px;
+  height: 300px;
+  position: fixed;
+  left:420px;
+  top:150px;
+  display: none;
+}
+.end{
+  width: 480px;
+  height: 260px;
+}
+.startbox{
+  width: 480px;
+  height: 300px;
+  position: fixed;
+  left:420px;
+  top:150px;
+  display: none;
+}
+.start{
+  width: 480px;
+  height: 260px;
+}
+</style>
+</head>
+<body>
+ <div class="come"><img src="imgs/2.jpg" class="coming"></div>
+ <div class="endbox"><img src="8.jpg" class="end"></div>
+ <div class="startbox"><img src="6.jpg" class="start"></div>
+
+ <div class="next"></div>
+	<div class="gengdan">
+    <div><img src="8.png" alt="" class="guanka"></div> 
+   <div class="guanqia" style="color:#be5469">
+     1
+   </div>
+   <div><img src="7.png" alt="" class="fenzhi"></div>
+   <div class="life" style="color:#be5469">
+     10
+   </div>
+   <div><img src="5.png" alt="" class="shengming"></div>
+   <div class="score" style="color:#be5469">
+     0
+   </div>
+   <div><img src="6.png" alt="" class="zongfens"></div>
+   <div class="zongfen" style="color:#be5469">
+     0
+   </div>
+  </div>
+  <img src="imgs/1.jpg" class="beijing">
+</body>
+<script src="function.js"></script>
+<script src="youxi.js"></script>
+<script>
+
+
+
+</script>
+</html>
